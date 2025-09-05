@@ -1,0 +1,81 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.option-btn:hover {
+  background: #0056b3;
+}
+
+.results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.restart-btn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #28a745;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+.progress-bar {
+  margin: 10px 0;
+  background: #e9ecef;
+  border-radius: 10px;
+  height: 20px;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background: #007bff;
+  border-radius: 10px;
+}
