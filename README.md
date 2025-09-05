@@ -7,7 +7,7 @@ A simple Quiz Application built with **React** that shows multiple-choice questi
 ## 🚀 Features
 - Clean and responsive UI (works on desktop & mobile)
 - Shows one question at a time
-- Multiple-choice questions (from API or local JSON)
+- Multiple-choice questions (local JSON)
 - Score tracking with final results summary
 - Restart quiz option
 - Progress bar to show current question
